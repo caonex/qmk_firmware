@@ -6,3 +6,10 @@ OPT_DEFS += -DKC_BLUETOOTH_ENABLE
 SRC += matrix.c
 
 include keyboards/keychron/bluetooth/bluetooth.mk
+
+# Custom 
+TAP_DANCE_ENABLE = yes
+#COMBO_ENABLE = yes
+DYNAMIC_TAPPING_TERM_ENABLE = yes
+#COMMAND_ENABLE = no
+#CONSOLE_ENABLE = yes

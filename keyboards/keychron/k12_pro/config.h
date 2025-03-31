@@ -79,7 +79,39 @@
 #define DYNAMIC_KEYMAP_EEPROM_MAX_ADDR 2047
 
 /* Old default behavior of mod-taps */
-#define HOLD_ON_OTHER_KEY_PRESS
+//#define HOLD_ON_OTHER_KEY_PRESS
 
 /* Factory test keys */
 #define FN_KEY1 MO(4)
+
+#define CHORDAL_HOLD
+// Define 5 Layers vs Default 4
+//#define DYNAMIC_KEYMAP_LAYER_COUNT 5
+
+// Configure the global tapping term
+#define TAPPING_TERM 200
+#define TAPPING_TERM_PER_KEY
+
+//#define RETRO_TAPPING
+
+// Enable Rapid Switch from tap to hold, disables double tap hold auto-repeat
+//#define QUICK_TAP_TERM 300
+
+//#define PERMISSIVE_HOLD
+
+// Pick good defaults for enabling homerow modifiers
+//#define TAP_CODE_DELAY 5
+//#define TAP_HOLD_CAPS_DELAY 0
+//#define BILATERAL_COMBINATIONS
+
+// Combo Definition
+//#define COMBO_TERM 25        // how quickly all combo keys must be pressed in succession to trigger
+//#define COMBO_MUST_HOLD_MODS // if a combo triggers a modifier, only trigger when the combo is held
+//#define COMBO_HOLD_TERM 300  // how long at least one of the combo keys must be held to trigger
+
+//#define COMBO_ALLOW_ACTION_KEYS
+//#define COMBO_STRICT_TIMER
+//#define EXTRA_SHORT_COMBOS
+//#define COMBO_TERM (TAPPING_TERM / 5) // time to get all combo keys down
+//#define COMBO_HOLD (COMBO_TERM*4) // time to hold to trigger delayed combo
+//#define ADAPTIVE_TERM COMBO_HOLD  // use COMBO_HOLD time as a standard threshold (same recation time)
